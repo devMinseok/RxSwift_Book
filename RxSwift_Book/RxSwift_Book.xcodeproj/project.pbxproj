@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -48,7 +48,6 @@
 				4FF078702E8CC0D05419151B /* Pods-RxSwift_Book.debug.xcconfig */,
 				741E3BDF6C82406D7F0387CD /* Pods-RxSwift_Book.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -64,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				F221B951245FA05A0003BB1F /* RxSwift_Book */,
+				F221BCAA247174E7006545A2 /* etc */,
 				F221B950245FA05A0003BB1F /* Products */,
 				A71FFCE875E12AD92EA5D7CE /* Pods */,
 				DE01620BB038241A6783E63D /* Frameworks */,
@@ -81,6 +81,45 @@
 		F221B951245FA05A0003BB1F /* RxSwift_Book */ = {
 			isa = PBXGroup;
 			children = (
+				F221BCA524717297006545A2 /* Observable */,
+				F221BCA8247173EA006545A2 /* Subject */,
+				F221BCA7247173D1006545A2 /* Operators */,
+				F221BCA92471743E006545A2 /* Scheduler */,
+			);
+			path = RxSwift_Book;
+			sourceTree = "<group>";
+		};
+		F221BCA524717297006545A2 /* Observable */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Observable;
+			sourceTree = "<group>";
+		};
+		F221BCA7247173D1006545A2 /* Operators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Operators;
+			sourceTree = "<group>";
+		};
+		F221BCA8247173EA006545A2 /* Subject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Subject;
+			sourceTree = "<group>";
+		};
+		F221BCA92471743E006545A2 /* Scheduler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scheduler;
+			sourceTree = "<group>";
+		};
+		F221BCAA247174E7006545A2 /* etc */ = {
+			isa = PBXGroup;
+			children = (
 				F221B952245FA05A0003BB1F /* AppDelegate.swift */,
 				F221B954245FA05A0003BB1F /* SceneDelegate.swift */,
 				F221B956245FA05A0003BB1F /* ViewController.swift */,
@@ -89,7 +128,7 @@
 				F221B95D245FA05D0003BB1F /* LaunchScreen.storyboard */,
 				F221B960245FA05D0003BB1F /* Info.plist */,
 			);
-			path = RxSwift_Book;
+			path = etc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
